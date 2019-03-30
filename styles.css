@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+label, input, p, h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.hoja {
+    padding-left: 10px;
+    width: 500px;
+    height: 600px;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+
+

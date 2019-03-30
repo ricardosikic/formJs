@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>JS Paragraph Effects</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+
+                <form>
+                    <div  class="form-group">
+                        <label>Nombre</label>
+                        <input type="text" id="nombre" class="form-control">
+                    </div>
+
+                    <div  class="form-group">
+                        <label>Apellido</label>
+                        <input type="text" id="apellido" class="form-control">
+                    </div>
+
+                    <div  class="form-group">
+                        <label>Profesion</label>
+                        <input type="text" id="profesion" class="form-control">
+                    </div>
+
+                    <div  class="form-group">
+                        <label>Sobre Ti</label>
+                        <textarea name="" id="sobre" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+
+                    <button type="button" class="btn btn-success" id="agregar">Agregar</button>
+                </form>
+
+
+            </div>
+            
+            <div class="col-sm-6">
+                <div class="hoja">
+                    <h4 class="text-center">Mi Curriculum</h4>
+                        <h5>Nombre:</h5>
+                        <div id="name"></div>
+                        <h5>Apellido:</h5>
+                        <div id="last"></div>
+                        <h5>Profesion:</h5>
+                        <div id="prof"></div>
+                        <h5>Sobre Mi</h5>
+                        <div id="about"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
